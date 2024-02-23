@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: lightblue;
+    padding: 20px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #E5F7FF ;
+}
+
+.text-area{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 18px;
+}
+
+.container-set{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#character-count{
+    color: blue;
+}
+
+#character-remaining{
+    color: red;
+}
